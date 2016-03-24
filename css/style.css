@@ -50,6 +50,16 @@ body {
   margin: 1rem 0;
 
   background: rgba(255, 255, 255, 0.3);
+
+  transition: background 0.3s ease-in-out;
+}
+
+.winkelmand .drop-area.over {
+  border: 2px dashed rgb(31, 136, 245);
+}
+
+.winkelmand .drop-area.done {
+  background: rgb(128, 231, 65);
 }
 
 .winkelmand .drop-area img {
@@ -76,6 +86,7 @@ body {
 .winkel .product span {
   display: block;
   text-align: center;
+  margin-bottom: 0.5rem;
 }
 
 .prijs::before {

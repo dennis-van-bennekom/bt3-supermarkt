@@ -32,6 +32,7 @@ function total() {
         <button>
           <img src="images/aardappelkroketjes.jpg" alt="Aardappelkroketjes" />
         </button>
+        <span class="naam">Aardappelkroketjes</span>
         <span class="prijs">2.13</span>
       </form>
 
@@ -41,6 +42,7 @@ function total() {
         <button>
           <img src="images/appelmoes.jpg" alt="Appelmoes" />
         </button>
+        <span class="naam">Appelmoes</span>
         <span class="prijs">0.55</span>
       </form>
 
@@ -50,6 +52,7 @@ function total() {
         <button>
           <img src="images/bananen.jpg" alt="Bananen" />
         </button>
+        <span class="naam">Bananen</span>
         <span class="prijs">1.29</span>
       </form>
 
@@ -59,6 +62,7 @@ function total() {
         <button>
           <img src="images/casino.jpg" alt="Casino Wit" />
         </button>
+        <span class="naam">Casino Wit</span>
         <span class="prijs">1.25</span>
       </form>
 
@@ -68,6 +72,7 @@ function total() {
         <button>
           <img src="images/frikandellen.jpg" alt="Frikandellen" />
         </button>
+        <span class="naam">Frikandellen</span>
         <span class="prijs">0.80</span>
       </form>
 
@@ -77,6 +82,7 @@ function total() {
         <button>
           <img src="images/hagelslag.jpg" alt="Hagelslag" />
         </button>
+        <span class="naam">Hagelslag</span>
         <span class="prijs">1.35</span>
       </form>
 
@@ -86,6 +92,7 @@ function total() {
         <button>
           <img src="images/lachouffe.jpg" alt="La Chouffe" />
         </button>
+        <span class="naam">La Chouffe</span>
         <span class="prijs">4.85</span>
       </form>
 
@@ -95,6 +102,7 @@ function total() {
         <button>
           <img src="images/pindakaas.jpg" alt="Pindakaas" />
         </button>
+        <span class="naam">Pindakaas</span>
         <span class="prijs">1.30</span>
       </form>
 
@@ -104,6 +112,7 @@ function total() {
         <button>
           <img src="images/jam.jpg" alt="Jam" />
         </button>
+        <span class="naam">Jam</span>
         <span class="prijs">1.25</span>
       </form>
     </section>

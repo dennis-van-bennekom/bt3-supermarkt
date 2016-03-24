@@ -1,9 +1,5 @@
 (function() {
   if ('draggable' in document.createElement('span')) {
-      function handleDragStart(e) {
-        e.dataTransfer.setData('text/html', this.innerHTML);
-      }
-
       function calculateTotal() {
         var prices = productList.querySelectorAll('.prijs');
 
@@ -22,12 +18,32 @@
       var totaal = document.querySelector('.totaal .prijs');
 
       [].forEach.call(products, function(product) {
-        product.addEventListener('dragstart', handleDragStart, false);
+        product.addEventListener('dragstart', function(e) {
+            e.dataTransfer.setData('text/html', this.innerHTML);
+        });
+
+        product.addEventListener('dragend', function() {
+          dropArea.classList.remove('over');
+
+          dropArea.classList.add('done');
+
+          setTimeout(function() {
+            dropArea.classList.remove('done');
+          }, 300);
+        });
       });
 
       dropArea.addEventListener('dragover', function(e) {
         e.preventDefault();
         e.dataTransfer.dropEffect = "move";
+      });
+
+      dropArea.addEventListener('dragenter', function() {
+        dropArea.classList.add('over');
+      });
+
+      dropArea.addEventListener('dragleave', function() {
+        dropArea.classList.remove('over');
       });
 
       dropArea.addEventListener('drop', function(e) {
