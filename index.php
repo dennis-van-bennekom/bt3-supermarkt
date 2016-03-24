@@ -51,6 +51,60 @@ function total() {
         </button>
         <span class="prijs">1.29</span>
       </form>
+
+      <form draggable="true" class="product" action="add_product.php" method="post">
+        <input type="hidden" name="product" value="Casino Wit">
+        <input type="hidden" name="prijs" value="1.25">
+        <button>
+          <img src="images/casino.jpg" alt="Casino Wit" />
+        </button>
+        <span class="prijs">1.25</span>
+      </form>
+
+      <form draggable="true" class="product" action="add_product.php" method="post">
+        <input type="hidden" name="product" value="Frikandellen">
+        <input type="hidden" name="prijs" value="0.80">
+        <button>
+          <img src="images/frikandellen.jpg" alt="Frikandellen" />
+        </button>
+        <span class="prijs">0.80</span>
+      </form>
+
+      <form draggable="true" class="product" action="add_product.php" method="post">
+        <input type="hidden" name="product" value="Hagelslag">
+        <input type="hidden" name="prijs" value="1.35">
+        <button>
+          <img src="images/hagelslag.jpg" alt="Hagelslag" />
+        </button>
+        <span class="prijs">1.35</span>
+      </form>
+
+      <form draggable="true" class="product" action="add_product.php" method="post">
+        <input type="hidden" name="product" value="La Chouffe">
+        <input type="hidden" name="prijs" value="4.85">
+        <button>
+          <img src="images/lachouffe.jpg" alt="La Chouffe" />
+        </button>
+        <span class="prijs">4.85</span>
+      </form>
+
+      <form draggable="true" class="product" action="add_product.php" method="post">
+        <input type="hidden" name="product" value="Pindakaas">
+        <input type="hidden" name="prijs" value="1.30">
+        <button>
+          <img src="images/pindakaas.jpg" alt="Pindakaas" />
+        </button>
+        <span class="prijs">1.30</span>
+      </form>
+
+      <form draggable="true" class="product" action="add_product.php" method="post">
+        <input type="hidden" name="product" value="Jam">
+        <input type="hidden" name="prijs" value="1.25">
+        <button>
+          <img src="images/jam.jpg" alt="Jam" />
+        </button>
+        <span class="prijs">1.25</span>
+      </form>
     </section>
 
     <section class="winkelmand">
