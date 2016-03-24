@@ -19,7 +19,7 @@ function total() {
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Task List</title>
+  <title>Supermarkt</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
