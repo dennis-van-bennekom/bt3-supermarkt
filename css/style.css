@@ -1,0 +1,87 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 32px auto;
+  margin: 0 auto;
+
+  font-family: sans-serif;
+
+  background: #fff;
+}
+
+.wrapper {
+  height: 100%;
+}
+
+.winkel {
+  float: left;
+  width: 70%;
+  height: 100%;
+}
+
+.winkelmand {
+  float: left;
+  padding: 1rem;
+  width: 30%;
+  height: 100%;
+
+  background: rgb(24, 145, 244);
+}
+
+.winkelmand h1 {
+  margin: 0;
+  color: #fff;
+}
+
+.winkelmand .drop-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+  margin: 1rem 0;
+
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.winkelmand .drop-area img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.winkel .product {
+  margin: 0.5rem;
+  display: inline-block;
+  width: 200px;
+}
+
+.winkel .product button {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.winkel .product button:hover {
+  cursor: pointer;
+}
+
+.winkel .product span {
+  display: block;
+  text-align: center;
+}
+
+.prijs::before {
+  content: "€ ";
+}
+
+.producten ul {
+  padding: 0 0 0 1rem;
+}
