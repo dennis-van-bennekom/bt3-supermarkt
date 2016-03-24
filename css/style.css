@@ -28,6 +28,14 @@ body {
   height: 100%;
 }
 
+.winkel .product {
+  transition: transform 0.15s ease-in-out;
+}
+
+.winkel .product:hover {
+  transform: scale(1.05);
+}
+
 .winkelmand {
   float: left;
   padding: 1rem;
