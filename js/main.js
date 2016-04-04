@@ -1,5 +1,8 @@
 (function() {
-  if ('draggable' in document.createElement('span')) {
+  if ('draggable' in document.createElement('span') &&
+      'classList' in document.createElement('span') &&
+      'addEventListener' in window &&
+      'querySelector' in document) {
       function calculateTotal() {
         var prices = productList.querySelectorAll('.prijs');
 
