@@ -38,6 +38,7 @@ body {
 
 .winkelmand {
   float: left;
+  padding: 16px;
   padding: 1rem;
   width: 30%;
   height: 100%;
@@ -54,7 +55,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 160px;
   height: 10rem;
+  margin: 16px 0;
   margin: 1rem 0;
 
   background: rgba(255, 255, 255, 0.3);
@@ -71,11 +74,14 @@ body {
 }
 
 .winkelmand .drop-area img {
+  width: 32px;
   width: 2rem;
+  height: 32px;
   height: 2rem;
 }
 
 .winkel .product {
+  margin: 8px;
   margin: 0.5rem;
   display: inline-block;
   width: 200px;
@@ -94,6 +100,7 @@ body {
 .winkel .product span {
   display: block;
   text-align: center;
+  margin-bottom: 8px;
   margin-bottom: 0.5rem;
 }
 
@@ -102,5 +109,6 @@ body {
 }
 
 .producten ul {
+  padding: 0 0 0 16px;
   padding: 0 0 0 1rem;
 }
